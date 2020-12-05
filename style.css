@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button{
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid antiquewhite;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.9);
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.button.active{
+    background-color: antiquewhite;
+    color: red;
+    transition: all 0.3s ease ;
+    -webkit-transition: all 0.3s ease ;
+    -moz-transition: all 0.3s ease ;
+    -ms-transition: all 0.3s ease ;
+    -o-transition: all 0.3s ease ;
+}
+p{
+    width: 600px;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.para1{
+    background-color: aqua;
+}
+.para2{
+    background-color: rgb(141, 233, 233);
+    
+}
+.para3{
+    background-color: rgb(0, 38, 255);
+    color: white;
+}
